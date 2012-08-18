@@ -1,0 +1,28 @@
+[user]
+	name = Faraaz Ismail
+	email = fism88@gmail.com
+[alias]
+	co = checkout
+	st = status
+
+	# log graph
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+
+[branch]
+	autosetuprebase = always
+
+[push]
+	default = upstream
+
+[help]
+	autocorrect = 1
+
+[core]
+	excludesfile = ~/.gitignore
+	quotepath = false
+
+[color]
+	diff = auto
+	ui = true
+    status = true
+	
